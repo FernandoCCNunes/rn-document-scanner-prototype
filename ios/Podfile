@@ -10,6 +10,10 @@ target 'DocumentScannerPrototype' do
 
   pod 'react-native-camera', :path => '../node_modules/react-native-camera'
 
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
+  pod 'react-native-image-base64', :path => '../node_modules/react-native-image-base64'
+
   target 'DocumentScannerPrototypeTests' do
     inherit! :complete
     # Pods for testing

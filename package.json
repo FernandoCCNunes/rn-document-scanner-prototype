@@ -10,9 +10,13 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "native-base": "^2.15.2",
     "react": "16.13.1",
     "react-native": "0.63.4",
-    "react-native-camera": "^3.43.0"
+    "react-native-camera": "^3.43.0",
+    "react-native-document-scanner": "git+https://github.com/ubidreams/react-native-document-scanner",
+    "react-native-image-base64": "^0.1.4",
+    "react-native-svg": "^12.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
